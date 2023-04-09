@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	color: #ffffffff;
+}
+
+#body {
+	/* background: rgb(16, 22, 34); */
+	background: #1e2131;
+}
+
+.navImage {
+	height: 450px;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('./code-5113374_1280.jpg');
+	margin-bottom: 48px;
+}
+
+.centerDiv img {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+}
+
+.centerDiv h1 b {
+	color: rgb(255, 58, 84);
+	/* color: #f55656; */
+	font-size: 50px;
+}
+
+.perfilePhoto2 {
+	width: 270px;
+}
+
+.personalData {
+	border: solid 1px rgb(255, 58, 84);
+	border-radius: 3px;
+	margin: 24px 0;
+	padding: 24px 24px 15px 24px;
+}
+
+.personalData p {
+	display: block;
+	float: left;
+}
+
+.cvDowload {
+	background: rgb(255, 58, 84);
+	padding: 10px 15px;
+	font-size: large;
+	border-radius: 3px;
+	/* border-color: rgb(255, 58, 84); */
+	border: none;
+}
+
+.cvDowload:hover {
+	cursor: pointer;
+	transform: scale(1.01);
+}
+
+.col-image {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.col-info {
+	padding: 24px;
+}
+
+.col-info h2 {
+	font-size: 40px;
+}
+
+#hr, #hr2,
+#hr3 {
+	border-color: rgb(255, 58, 84);
+	background: rgb(255, 58, 84);
+	width: 60px;
+	height: 2px;
+	margin-bottom: 48px;
+}
+
+.container-1 {
+	padding-bottom: 48px;
+}
+
+#Discover, #Do, #theknow, #meetMe {
+	color: rgb(255, 58, 84);
+	margin-bottom: 0
+}
+
+#container-2 {
+	padding: 48px 0;
+	/* background: rgb(39, 35, 70); */
+	background: #24253c;
+	margin-bottom: 48px;
+}
+
+.container-2 .row {
+	margin-top: 48px;
+}
+
+.container-3 {
+	padding-bottom: 48px;
+}
+
+.serviceBox {
+	border: solid 1px rgb(255, 58, 84);
+	border-radius: 3px;
+	padding: 24px;
+	padding-bottom: 15px;
+}
+
+.bi-braces, .bi-code-slash, .bi-laptop, .bi-phone {
+	margin-bottom: 20px;
+}
+
+/* .JavaScript-logo { */
+.toolLogo {
+	/* width: 100px; */
+	height: 100px;
+}
+
+footer {
+	padding: 24px 0;
+	background: #24253c;
+}
+
+footer img {
+	height: 75px;
+	border-radius: 10px;
+}
+
+footer .row {
+	margin-top: 24px;
+}
