@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Foto-Perfil-Home.jpeg"
+      type="image/x-icon"
+    />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header" id="header">
+        <div class="header__container"></div>
+        <div class="header__content">
+          <a href="#home">
+            <h2 class="title header__title header__title--leandro">Leandro.</h2>
+          </a>
+          <label for="checkbox" class="header__menu" title="menu">
+            <picture class="picture header__picture header__picture--menu">
+              <img
+                src="images/icon-menu.svg"
+                alt="menu"
+                class="img header__img header__img--menu"
+              />
+            </picture>
+          </label>
+        </div>
+      </header>
+      <input
+        type="checkbox"
+        name="checkbox"
+        id="checkbox"
+        class="checkbox"
+        title="checkbox"
+      />
+      <nav class="nav header__nav">
+        <ul class="list header__list">
+          <li class="header__list__item header__list__item--home">
+            <!-- <a href="#home">Home</a> -->
+            <a href="#home">Inicio</a>
+          </li>
+          <li class="header__list__item header__list__item--aout">
+            <!-- <a href="#about">About</a> -->
+            <a href="#about">Acerca de</a>
+          </li>
+          <!-- <li class="header__list__item header__list__item--education"> -->
+          <!-- <a href="#education"> Education </a> -->
+          <!-- <a href="#education"> Educación </a>
+          </li> -->
+          <li class="header__list__item header__list__item--work">
+            <!-- <a href="#work"> work </a> -->
+            <a href="#work"> Trabajo </a>
+          </li>
+          <li class="header__list__item header__list__item--skills">
+            <!-- <a href="#skills"> Skills </a> -->
+            <a href="#skills"> Habilidades </a>
+          </li>
+          <li class="header__list__item header__list__item--contac">
+            <!-- <a href="#contact"> Contact </a> -->
+            <a href="#contact"> Contacta </a>
+          </li>
+        </ul>
+      </nav>
+      <section class="home" id="home">
+        <div class="home__content">
+          <div class="home__texts">
+            <h1 class="title home__title">Hola, Soy Leandro Hernández</h1>
+            <!-- <h1 class="title home__title">Leandro Hernández</h1> -->
+            <div class="home__subtitle__container">
+              <h3 class="subtitle home__subtitle home__subtitle--stroke">
+                Frontend Developer
+              </h3>
+              <div class="home__subtitle__container--normal">
+                <h3 class="subtitle home__subtitle home__subtitle--normal">
+                  Frontend Developer
+                </h3>
+              </div>
+            </div>
+            <div class="sentence__container">
+              <p class="paragraph home__paragraph">
+                "El secreto de la felicidad no es hacer siempre lo que se
+                quiere, sino querer siempre lo que se hace."
+              </p>
+              <b class="home__author"> - León Tolstói </b>
+            </div>
+          </div>
+          <div class="home__buttons">
+            <a href="#contact" class="button home__button home__button--hire_me"
+              >Contratame</a
+            >
+            <a
+              href="#contact"
+              class="button home__button home__button--lets_talk"
+              >Vamos a hablar</a
+            >
+          </div>
+          <div class="home__media">
+            <a
+              href="https://www.facebook.com/johanleandro.hernandezvelez"
+              target="_blank"
+              rel="noopener"
+            >
+              <picture
+                class="home__picture__media__icon home__picture__media__icon--facebook"
+              >
+                <img
+                  src="images/icon-facebook.svg"
+                  alt="facebook"
+                  class="img img__media__icon--facebook"
+                />
+              </picture>
+            </a>
+            <a
+              href="https://twitter.com/LeandroHvz"
+              target="_blank"
+              rel="noopener"
+            >
+              <picture
+                class="home__picture__media__icon home__picture__media__icon--twitter"
+              >
+                <img
+                  src="images/icon-twitter.svg"
+                  alt="twitter"
+                  class="img img__media__icon--twitter"
+                />
+              </picture>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/leandro-hernandez-873266224/"
+              target="_blank"
+              rel="noopener"
+            >
+              <picture
+                class="home__picture__media__icon home__picture__media__icon--linkedin"
+              >
+                <img
+                  src="images/icon-linkedin.svg"
+                  alt="linkedin"
+                  class="img img__media__icon--linkedin"
+                />
+              </picture>
+            </a>
+          </div>
+        </div>
+        <picture class="picture picture__perfil__fondo">
+          <img
+            src="images/Foto-Perfil-Home.png"
+            alt="Leandro Hernández"
+            class="img img__perfil__fondo"
+          />
+          <img
+            src="images/Foto-Perfil-Home-Emergente2.png"
+            alt="Leandro Hernández"
+            class="img img__perfil__Emergente"
+          />
+        </picture>
+      </section>
+      <section class="about" id="about">
+        <h3 class="about__title">Acerca de <b>Mi</b></h3>
+        <div class="about__picture__container">
+          <picture class="picture about__picture" title="Leandro Hernández">
+            <img
+              src="images/Foto-Perfil-About.JPG"
+              alt="Leandro Hernández"
+              class="img about__img"
+            />
+          </picture>
+        </div>
+        <h4 class="about__subtitle">Frontend Developer!</h4>
+        <p class="paragraph about__paragraph">
+          Soy desarrollador Web con más de 3 años y medio de experiencia en
+          desarrollos independientes, trabajo en base a conceptos como Lazy
+          Loading, (SPA) y Responsive Design. Soy autodidacta y siempre estoy en
+          busca de Enriquecer y expandir mis habilidades y conocimientos.
+        </p>
+        <!-- <label for="" class="about__button">Leer más</label> -->
+        <!-- <label for="" class="about__button" onclick="window.open('./Web Developer Hoja de vida.pdf')" >Ver CV</label> -->
+      </section>
+      <!-- <section class="education" id="education"></section> -->
+      <section class="work" id="work">
+        <h3 class="work__title">Mi <b> Trabajo </b></h3>
+        <div class="work__content">
+          <div class="work__column work__custom__software">
+            <picture class="work__picture work__picture--custom">
+              <img
+                src="images/ilustration-programming.svg"
+                alt="Software Personalizado"
+                class="img work__img work__img--custom"
+              />
+            </picture>
+            <div class="work__texts">
+              <h4 class="work__subtitle">Software Personalizado</h4>
+              <p>
+                ¿Necesitas una pagina web? Yo puedo hacerla por ti en base a tus
+                necesidades.
+              </p>
+            </div>
+          </div>
+          <div class="work__column work__responsive">
+            <picture class="work__picture work__picture--responsive">
+              <img
+                src="images/ilustration-responsive.svg"
+                alt="Diseño adaptable"
+                class="img work__img work__img--responsive"
+              />
+            </picture>
+            <div class="work__texts">
+              <h4 class="work__subtitle">Diseño adaptable</h4>
+              <p>
+                Sitios completamente adaptalbles a cualquier tamaño de pantalla.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <h3 class="title skills__title">Mis <b> Habilidades </b></h3>
+        <div class="skills__content">
+          <div class="frontend__Skills">
+            <h4 class="subtitle skills__subtitle">Habilidades de Frontend</h4>
+            <div class="skills__container skills__container--frontend">
+              <div class="skill__container">
+                <label for="html" class="skill__label"
+                  >HTML
+                  <picture class="picture skill__picture skill__picture--html">
+                    <!-- src="images/logo-html-5.svg" -->
+                    <img
+                      src="images/logo-html-5.png"
+                      alt="HTML"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="html" class="skill__percentage">70%</label>
+
+                <progress
+                  id="html"
+                  max="100"
+                  value="70"
+                  class="progress"
+                ></progress>
+              </div>
+              <div class="skill__container">
+                <label for="css" class="skill__label"
+                  >css
+                  <picture class="picture skill__picture skill__picture--css">
+                    <!-- src="images/logo-css-3.svg" -->
+                    <img
+                      src="images/logo-css-3.png"
+                      alt="css"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="css" class="skill__percentage">80%</label>
+
+                <progress
+                  id="css"
+                  max="100"
+                  value="80"
+                  class="progress"
+                ></progress>
+              </div>
+              <!-- <div class="skill__container">
+                <label for="JavaScript" class="skill__label">JavaScript</label>
+                <label for="JavaScript" class="skill__percentage">45%</label>
+
+                <progress
+                  id="JavaScript"
+                  max="100"
+                  value="45"
+                  class="progress"
+                ></progress>
+              </div> -->
+              <div class="skill__container">
+                <label for="TypeScript" class="skill__label"
+                  >TypeScript
+                  <picture
+                    class="picture skill__picture skill__picture--typeScript"
+                  >
+                    <img
+                      src="images/logo-typescript-icon.svg"
+                      alt="TypeScript"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="TypeScript" class="skill__percentage">60%</label>
+
+                <progress
+                  id="TypeScript"
+                  max="100"
+                  value="60"
+                  class="progress"
+                ></progress>
+              </div>
+              <div class="skill__container">
+                <label for="Angular" class="skill__label"
+                  >Angular
+                  <picture
+                    class="picture skill__picture skill__picture--angular"
+                  >
+                    <img
+                      src="images/logo-angular-icon.svg"
+                      alt="Angular"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="Angular" class="skill__percentage">80%</label>
+
+                <progress
+                  id="Angular"
+                  max="100"
+                  value="80"
+                  class="progress"
+                ></progress>
+              </div>
+            </div>
+          </div>
+          <div class="backend__Skills">
+            <h4 class="subtitle skills__subtitle">Habilidades de Backend</h4>
+            <div class="skills__container skills__container--backend">
+              <div class="skill__container">
+                <label for="NodeJs" class="skill__label"
+                  >NodeJs
+                  <picture
+                    class="picture skill__picture skill__picture--nodeJs"
+                  >
+                    <img
+                      src="images/logo-nodejs-icon.svg"
+                      alt="NodeJs"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="NodeJs" class="skill__percentage">40%</label>
+
+                <progress
+                  id="NodeJs"
+                  max="100"
+                  value="40"
+                  class="progress"
+                ></progress>
+              </div>
+              <div class="skill__container">
+                <label for="NestJs" class="skill__label"
+                  >NestJs
+                  <picture
+                    class="picture skill__picture skill__picture--nestJs"
+                  >
+                    <img
+                      src="images/logo-nestjs.svg"
+                      alt="NestJs"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="NestJs" class="skill__percentage">70%</label>
+
+                <progress
+                  id="NestJs"
+                  max="100"
+                  value="70"
+                  class="progress"
+                ></progress>
+              </div>
+              <div class="skill__container">
+                <label for="FeathersJs" class="skill__label"
+                  >FeathersJs
+                  <picture
+                    class="picture skill__picture skill__picture--feathersJs"
+                  >
+                    <img
+                      src="images/logo-feathersjs.svg"
+                      alt="FeathersJs"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="FeathersJs" class="skill__percentage">70%</label>
+
+                <progress
+                  id="FeathersJs"
+                  max="100"
+                  value="70"
+                  class="progress"
+                ></progress>
+              </div>
+              <!-- <div class="skill__container">
+                <label for="MongoDB" class="skill__label">MongoDB</label>
+                <label for="MongoDB" class="skill__percentage">60%</label>
+
+                <progress
+                  id="MongoDB"
+                  max="100"
+                  value="60"
+                  class="progress"
+                ></progress>
+              </div>
+              <div class="skill__container">
+                <label for="PostgresSQl" class="skill__label"
+                  >PostgresSQl</label
+                >
+                <label for="PostgresSQl" class="skill__percentage">60%</label>
+
+                <progress
+                  id="PostgresSQl"
+                  max="100"
+                  value="60"
+                  class="progress"
+                ></progress>
+              </div> -->
+              <div class="skill__container">
+                <label for="Firebase" class="skill__label"
+                  >Firebase
+                  <picture
+                    class="picture skill__picture skill__picture--firebase"
+                  >
+                    <img
+                      src="images/logo-firebase.svg"
+                      alt="Firebase"
+                      class="img skill__img"
+                    />
+                  </picture>
+                </label>
+                <label for="Firebase" class="skill__percentage">75%</label>
+
+                <progress
+                  id="Firebase"
+                  max="100"
+                  value="75"
+                  class="progress"
+                ></progress>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <h3 class="title contact__title">Contacta<b>Me</b></h3>
+        <form action="" method="post" class="form">
+          <input type="text" placeholder="Nombre Completo" class="name" />
+          <input type="text" placeholder="Número Telefono" class="phone" />
+          <input type="text" placeholder="Correo" class="email" />
+          <input type="text" placeholder="Tema del Mensaje" class="subject" />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Mensage"
+            class="message"
+          ></textarea>
+          <label for="" class="button submit">Enviar</label>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
