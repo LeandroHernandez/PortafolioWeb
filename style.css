@@ -1080,12 +1080,12 @@ body {
 @media (max-width: 400px) {
   .picture__perfil__fondo {
     padding: 0;
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
   }
 
   .img__perfil__fondo {
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
   }
 }
