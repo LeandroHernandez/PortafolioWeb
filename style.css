@@ -704,10 +704,6 @@ body {
   background: #ffffff;
 }
 
-.skill__picture--feathersJs {
-  /* padding: 30px; */
-}
-
 .skill__img {
   position: absolute;
   top: 0;
@@ -1000,6 +996,8 @@ body {
 
   .picture__perfil__fondo {
     padding-left: 0;
+    width: 6%;
+    height: auto;
   }
 
   .checkbox:checked + .header__nav {
