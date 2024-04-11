@@ -93,8 +93,11 @@
             <a href="#contact" class="button home__button home__button--hire_me"
               >Contratame</a
             >
+            <!-- href="#contact" -->
             <a
-              href="#contact"
+              href="https://wa.me/573106584021"
+              target="_blank"
+              rel="noopener"
               class="button home__button home__button--lets_talk"
               >Vamos a hablar</a
             >
@@ -154,7 +157,7 @@
             class="img img__perfil__fondo"
           />
           <img
-            src="images/Foto-Perfil-Home-Emergente2.png"
+            src="images/Foto-Perfil-Home-Emergente.png"
             alt="Leandro Hernández"
             class="img img__perfil__Emergente"
           />
@@ -444,20 +447,38 @@
       </section>
       <section class="contact" id="contact">
         <h3 class="title contact__title">Contacta<b>Me</b></h3>
-        <form action="" method="post" class="form">
-          <input type="text" placeholder="Nombre Completo" class="name" />
-          <input type="text" placeholder="Número Telefono" class="phone" />
-          <input type="text" placeholder="Correo" class="email" />
-          <input type="text" placeholder="Tema del Mensaje" class="subject" />
+        <form action="https://formsubmit.co/13f5d594f55b5942ba67db651e944cc9 " method="post" class="form">
+          <input
+            type="text"
+            placeholder="Nombre Completo"
+            class="name"
+            name="name"
+          />
+          <input
+            type="text"
+            placeholder="Número Telefono"
+            class="phone"
+            name="phone"
+          />
+          <input type="text" placeholder="Correo" class="email" name="email" />
+          <input
+            type="text"
+            placeholder="Tema del Mensaje"
+            class="subject"
+            name="subject"
+          />
           <textarea
             name="message"
-            id="message"
+            name="message"
             cols="30"
             rows="10"
             placeholder="Mensage"
             class="message"
           ></textarea>
-          <label for="" class="button submit">Enviar</label>
+          <label for="submit" class="button submit">Enviar</label>
+          <input type="submit" class="button input__submit" id="submit"></input>
+          <input type="hidden" name="_next" value="https://leandrohernandez.github.io/PortafolioWeb/#contact">
+          <input type="hidden" name="_captcha" value="false">
         </form>
       </section>
     </div>

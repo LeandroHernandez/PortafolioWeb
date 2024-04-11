@@ -847,6 +847,10 @@ body {
   transition: 0.3s transform ease;
 }
 
+.input__submit {
+  display: none;
+}
+
 @media (max-width: 1300px) {
   .home {
     grid-template-columns: 1fr 1fr;
